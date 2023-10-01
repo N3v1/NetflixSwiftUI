@@ -95,9 +95,10 @@
 		38C6CEA02AC963AE001CDF46 /* NetflixSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				38C6CEA12AC963AE001CDF46 /* NetflixSwiftUIApp.swift */,
+				38C6CECC2AC9671F001CDF46 /* App */,
+				38C6CECD2AC96726001CDF46 /* Core */,
+				38C6CECF2AC96732001CDF46 /* Ressources */,
 				38C6CEA32AC963AE001CDF46 /* ContentView.swift */,
-				38C6CEA52AC963AF001CDF46 /* Assets.xcassets */,
 				38C6CEAA2AC963AF001CDF46 /* NetflixSwiftUI.entitlements */,
 				38C6CEA72AC963AF001CDF46 /* Preview Content */,
 			);
@@ -127,6 +128,53 @@
 				38C6CEBF2AC963B0001CDF46 /* NetflixSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = NetflixSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		38C6CECC2AC9671F001CDF46 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				38C6CEA12AC963AE001CDF46 /* NetflixSwiftUIApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		38C6CECD2AC96726001CDF46 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				38C6CED02AC96749001CDF46 /* Auth */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		38C6CECF2AC96732001CDF46 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				38C6CEA52AC963AF001CDF46 /* Assets.xcassets */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		38C6CED02AC96749001CDF46 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				38C6CED12AC96750001CDF46 /* View */,
+				38C6CED22AC96753001CDF46 /* ViewModel */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		38C6CED12AC96750001CDF46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		38C6CED22AC96753001CDF46 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
