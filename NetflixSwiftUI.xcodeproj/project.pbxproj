@@ -16,6 +16,7 @@
 		38C6CEC02AC963B0001CDF46 /* NetflixSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6CEBF2AC963B0001CDF46 /* NetflixSwiftUIUITestsLaunchTests.swift */; };
 		38C6CED42AC96794001CDF46 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6CED32AC96794001CDF46 /* SignUpView.swift */; };
 		38C6CED72AC967BA001CDF46 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6CED62AC967BA001CDF46 /* LogInView.swift */; };
+		38C6CEE02AC97BD8001CDF46 /* IGTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6CEDF2AC97BD8001CDF46 /* IGTextFieldModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		38C6CEBF2AC963B0001CDF46 /* NetflixSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		38C6CED32AC96794001CDF46 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		38C6CED62AC967BA001CDF46 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		38C6CEDF2AC97BD8001CDF46 /* IGTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGTextFieldModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 		38C6CECD2AC96726001CDF46 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				38C6CEDD2AC97BAE001CDF46 /* Componetnts */,
 				38C6CED02AC96749001CDF46 /* Auth */,
 			);
 			path = Core;
@@ -213,6 +216,22 @@
 			children = (
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		38C6CEDD2AC97BAE001CDF46 /* Componetnts */ = {
+			isa = PBXGroup;
+			children = (
+				38C6CEDE2AC97BB8001CDF46 /* Views */,
+			);
+			path = Componetnts;
+			sourceTree = "<group>";
+		};
+		38C6CEDE2AC97BB8001CDF46 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				38C6CEDF2AC97BD8001CDF46 /* IGTextFieldModifier.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,6 +367,7 @@
 				38C6CEA42AC963AE001CDF46 /* ContentView.swift in Sources */,
 				38C6CED42AC96794001CDF46 /* SignUpView.swift in Sources */,
 				38C6CED72AC967BA001CDF46 /* LogInView.swift in Sources */,
+				38C6CEE02AC97BD8001CDF46 /* IGTextFieldModifier.swift in Sources */,
 				38C6CEA22AC963AE001CDF46 /* NetflixSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

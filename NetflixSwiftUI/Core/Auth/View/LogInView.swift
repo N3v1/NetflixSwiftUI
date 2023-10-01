@@ -27,10 +27,47 @@ struct LogInView: View {
                     Image("netflix logo")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 150)
+                        .frame(width: 200)
+                        .padding()
                     
                     // MARK: - Login
+                    VStack {
+                        TextField("Enter your email", text: $email)
+                            .autocorrectionDisabled()
+                            .modifier(IGTextFieldModifier())
+                            .frame(width: 400, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
+                        
+                        SecureField("Enter your password", text: $password)
+                            .autocorrectionDisabled()
+                            .modifier(IGTextFieldModifier())
+                            .frame(width: 400, height: 100)
+                    }
+                    // MARK: - LogIn Button
+                    Button {
+                        // TODO: Add login func
+                        print("Log in")
+                    } label: {
+                        Text("Login")
+//                                        .modifier(IGButtonModifier())
+                    }
                     
+                    // MARK: - SignUp Flow
+                    Spacer()
+                    Divider()
+                    
+                    NavigationLink {
+//                                    RegistrationView()
+//                                        .navigationBarBackButtonHidden()
+                    } label: {
+                        HStack(spacing: 3) {
+                            Text("Don't have an account?")
+                            Text("Sign Up")
+                                .fontWeight(.semibold)
+                        }
+                        .foregroundColor(.white)
+                        .font(.footnote)
+                    }
+                    .padding(.vertical, 16)
                 }
             }
         }
