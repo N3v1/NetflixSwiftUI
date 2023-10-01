@@ -58,6 +58,7 @@ struct SignUpView: View {
                 Button {
                     // TODO: Add login func
                     print("Sign up")
+                    HomeView() // for test purposes
                 } label: {
                     Text("Sign up")
                         .modifier(IGButtonModifier())

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3835DAE22AC9C55F00E86D0B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3835DAE12AC9C55F00E86D0B /* HomeView.swift */; };
 		38C6CEA22AC963AE001CDF46 /* NetflixSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6CEA12AC963AE001CDF46 /* NetflixSwiftUIApp.swift */; };
 		38C6CEA42AC963AE001CDF46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6CEA32AC963AE001CDF46 /* ContentView.swift */; };
 		38C6CEA62AC963AF001CDF46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C6CEA52AC963AF001CDF46 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3835DAE12AC9C55F00E86D0B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		38C6CE9E2AC963AE001CDF46 /* NetflixSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C6CEA12AC963AE001CDF46 /* NetflixSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixSwiftUIApp.swift; sourceTree = "<group>"; };
 		38C6CEA32AC963AE001CDF46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3835DADE2AC9C4DC00E86D0B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3835DAE12AC9C55F00E86D0B /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		38C6CE952AC963AE001CDF46 = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +163,7 @@
 		38C6CECD2AC96726001CDF46 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				3835DADE2AC9C4DC00E86D0B /* Home */,
 				38C6CEDD2AC97BAE001CDF46 /* Componetnts */,
 				38C6CED02AC96749001CDF46 /* Auth */,
 			);
@@ -368,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38C6CEA42AC963AE001CDF46 /* ContentView.swift in Sources */,
+				3835DAE22AC9C55F00E86D0B /* HomeView.swift in Sources */,
 				38C6CED42AC96794001CDF46 /* SignUpView.swift in Sources */,
 				38C6CED72AC967BA001CDF46 /* LogInView.swift in Sources */,
 				38C6CEE02AC97BD8001CDF46 /* IGTextFieldModifier.swift in Sources */,
