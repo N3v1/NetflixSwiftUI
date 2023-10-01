@@ -14,6 +14,7 @@
 		38C6CEB42AC963B0001CDF46 /* NetflixSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6CEB32AC963B0001CDF46 /* NetflixSwiftUITests.swift */; };
 		38C6CEBE2AC963B0001CDF46 /* NetflixSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6CEBD2AC963B0001CDF46 /* NetflixSwiftUIUITests.swift */; };
 		38C6CEC02AC963B0001CDF46 /* NetflixSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6CEBF2AC963B0001CDF46 /* NetflixSwiftUIUITestsLaunchTests.swift */; };
+		38C6CED42AC96794001CDF46 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6CED32AC96794001CDF46 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		38C6CEB92AC963B0001CDF46 /* NetflixSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetflixSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C6CEBD2AC963B0001CDF46 /* NetflixSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixSwiftUIUITests.swift; sourceTree = "<group>"; };
 		38C6CEBF2AC963B0001CDF46 /* NetflixSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38C6CED32AC96794001CDF46 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 		38C6CED12AC96750001CDF46 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				38C6CED32AC96794001CDF46 /* SignUpView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38C6CEA42AC963AE001CDF46 /* ContentView.swift in Sources */,
+				38C6CED42AC96794001CDF46 /* SignUpView.swift in Sources */,
 				38C6CEA22AC963AE001CDF46 /* NetflixSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
