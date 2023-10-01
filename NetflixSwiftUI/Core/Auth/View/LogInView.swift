@@ -68,6 +68,8 @@ struct LogInView: View {
                         .font(.footnote)
                     }
                     .padding(.vertical, 16)
+                    
+                    Spacer()
                 }
             }
         }
