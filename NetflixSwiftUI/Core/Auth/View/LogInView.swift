@@ -8,9 +8,35 @@
 import SwiftUI
 
 struct LogInView: View {
+    @State private var email = ""
+    @State private var password = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            ZStack {
+                Image("netflix-wallpaper")
+                    .resizable()
+                    .scaledToFill()
+                    .overlay {
+                        Rectangle()
+                            .foregroundColor(.black)
+                            .opacity(0.6)
+                    }
+                VStack {
+                    // MARK: - Logo
+                    Image("netflix logo")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 150)
+                    
+                    // MARK: - Login
+                    
+                }
+            }
+        }
     }
 }
 
-
+#Preview {
+    LogInView()
+}

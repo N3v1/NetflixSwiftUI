@@ -99,6 +99,10 @@
 		38C6CEA02AC963AE001CDF46 /* NetflixSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				38C6CEDC2AC9798A001CDF46 /* Services */,
+				38C6CEDB2AC97982001CDF46 /* Model */,
+				38C6CEDA2AC9797B001CDF46 /* Extension */,
+				38C6CED82AC97948001CDF46 /* Utils */,
 				38C6CECC2AC9671F001CDF46 /* App */,
 				38C6CECD2AC96726001CDF46 /* Core */,
 				38C6CECF2AC96732001CDF46 /* Ressources */,
@@ -181,6 +185,34 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		38C6CED82AC97948001CDF46 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		38C6CEDA2AC9797B001CDF46 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		38C6CEDB2AC97982001CDF46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38C6CEDC2AC9798A001CDF46 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -406,7 +438,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -463,7 +495,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -491,7 +523,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = "0.0.1-dev";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.NetflixSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -520,7 +552,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = "0.0.1-dev";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.NetflixSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
