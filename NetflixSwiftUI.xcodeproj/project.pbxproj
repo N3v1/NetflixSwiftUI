@@ -17,6 +17,7 @@
 		38C6CED42AC96794001CDF46 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6CED32AC96794001CDF46 /* SignUpView.swift */; };
 		38C6CED72AC967BA001CDF46 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6CED62AC967BA001CDF46 /* LogInView.swift */; };
 		38C6CEE02AC97BD8001CDF46 /* IGTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6CEDF2AC97BD8001CDF46 /* IGTextFieldModifier.swift */; };
+		38C6CEE42AC9841C001CDF46 /* IGButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6CEE32AC9841C001CDF46 /* IGButtonModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		38C6CED32AC96794001CDF46 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		38C6CED62AC967BA001CDF46 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 		38C6CEDF2AC97BD8001CDF46 /* IGTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGTextFieldModifier.swift; sourceTree = "<group>"; };
+		38C6CEE32AC9841C001CDF46 /* IGButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGButtonModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				38C6CEDF2AC97BD8001CDF46 /* IGTextFieldModifier.swift */,
+				38C6CEE32AC9841C001CDF46 /* IGButtonModifier.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -368,6 +371,7 @@
 				38C6CED42AC96794001CDF46 /* SignUpView.swift in Sources */,
 				38C6CED72AC967BA001CDF46 /* LogInView.swift in Sources */,
 				38C6CEE02AC97BD8001CDF46 /* IGTextFieldModifier.swift in Sources */,
+				38C6CEE42AC9841C001CDF46 /* IGButtonModifier.swift in Sources */,
 				38C6CEA22AC963AE001CDF46 /* NetflixSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

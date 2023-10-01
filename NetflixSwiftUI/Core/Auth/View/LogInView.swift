@@ -23,6 +23,7 @@ struct LogInView: View {
                             .opacity(0.6)
                     }
                 VStack {
+                    Spacer()
                     // MARK: - Logo
                     Image("netflix logo")
                         .resizable()
@@ -48,7 +49,7 @@ struct LogInView: View {
                         print("Log in")
                     } label: {
                         Text("Login")
-//                                        .modifier(IGButtonModifier())
+                            .modifier(IGButtonModifier())
                     }
                     
                     // MARK: - SignUp Flow
