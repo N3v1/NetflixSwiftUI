@@ -8,23 +8,20 @@
 import SwiftUI
 import FirebaseCore
 
-//class AppDelegate: NSObject, UIApplicationDelegate {
-//  func application(_ application: UIApplication,
-//                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-//    FirebaseApp.configure()
-//
-//    return true
-//  }
-//}
-
 @main
 struct NetflixSwiftUIApp: App {
-    // register app delegate for Firebase setup
-//    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
             LogInView()
-//            ContentView()
         }
+    }
+}
+
+class AppDelegate: NSObject, NSApplicationDelegate {
+    func applicationDidFinishLaunching(_ notification: Notification) {
+        FirebaseApp.configure()
     }
 }
