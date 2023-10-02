@@ -49,11 +49,11 @@ struct LogInView: View {
                         print("Log in")
                     } label: {
                         Text("Login")
-                            .modifier(IGButtonModifier())
                             .frame(width: 200, height: 44)
                             .tint(Color.black)
                             .buttonStyle(.borderedProminent)
                             .controlSize(.large)
+                            .modifier(IGButtonModifier())
                     }
                     
                     // MARK: - SignUp Flow
