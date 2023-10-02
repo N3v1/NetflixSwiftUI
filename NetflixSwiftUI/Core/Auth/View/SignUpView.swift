@@ -38,27 +38,26 @@ struct SignUpView: View {
                     TextField("Enter your email", text: $email)
                         .autocorrectionDisabled()
                         .modifier(IGTextFieldModifier())
-                        .frame(width: 400, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
+                        .frame(width: 400)
                     
                     SecureField("Enter your password", text: $password)
                         .autocorrectionDisabled()
                         .modifier(IGTextFieldModifier())
-                        .frame(width: 400, height: 100)
+                        .frame(width: 400)
                     
                     TextField("Enter your full name", text: $fullname)
                         .modifier(IGTextFieldModifier())
-                        .frame(width: 400, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
+                        .frame(width: 400)
                     
                     TextField("Enter an username", text: $username)
                         .modifier(IGTextFieldModifier())
-                        .frame(width: 400, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
+                        .frame(width: 400)
                 }
                 
                 // MARK: - LogIn Button
                 Button {
                     // TODO: Add login func
                     print("Sign up")
-                    HomeView() // for test purposes
                 } label: {
                     Text("Sign up")
                         .modifier(IGButtonModifier())
@@ -69,7 +68,7 @@ struct SignUpView: View {
                 Divider()
                 
                 NavigationLink {
-                    SignUpView()
+                    LogInView()
                         .navigationBarBackButtonHidden()
                 } label: {
                     HStack(spacing: 3) {

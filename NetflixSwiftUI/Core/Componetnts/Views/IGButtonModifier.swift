@@ -13,8 +13,5 @@ struct IGButtonModifier: ViewModifier {
             .font(.subheadline)
             .fontWeight(.semibold)
             .foregroundColor(.white)
-            .frame(width: 200, height: 44)
-            .background(Color(.black))
-            .cornerRadius(10)
     }
 }

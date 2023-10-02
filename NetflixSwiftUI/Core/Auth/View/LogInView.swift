@@ -36,12 +36,12 @@ struct LogInView: View {
                         TextField("Enter your email", text: $email)
                             .autocorrectionDisabled()
                             .modifier(IGTextFieldModifier())
-                            .frame(width: 400, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
+                            .frame(width: 400) // height: 100
                         
                         SecureField("Enter your password", text: $password)
                             .autocorrectionDisabled()
                             .modifier(IGTextFieldModifier())
-                            .frame(width: 400, height: 100)
+                            .frame(width: 400) // height: 100
                     }
                     // MARK: - LogIn Button
                     Button {
@@ -50,6 +50,10 @@ struct LogInView: View {
                     } label: {
                         Text("Login")
                             .modifier(IGButtonModifier())
+                            .frame(width: 200, height: 44)
+                            .tint(Color.black)
+                            .buttonStyle(.borderedProminent)
+                            .controlSize(.large)
                     }
                     
                     // MARK: - SignUp Flow
