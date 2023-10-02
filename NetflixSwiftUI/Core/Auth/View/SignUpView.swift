@@ -61,6 +61,10 @@ struct SignUpView: View {
                 } label: {
                     Text("Sign up")
                         .modifier(IGButtonModifier())
+                        .frame(width: 200, height: 44)
+                        .tint(Color.black)
+                        .buttonStyle(.borderedProminent)
+                        .controlSize(.large)
                 }
                 
                 // MARK: - SignUp Flow
