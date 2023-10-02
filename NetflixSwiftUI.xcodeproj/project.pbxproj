@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3835DAE22AC9C55F00E86D0B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3835DAE12AC9C55F00E86D0B /* HomeView.swift */; };
-		3836C1852ACABE9F0084DAF3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3836C1842ACABE9F0084DAF3 /* GoogleService-Info.plist */; };
 		38C6CEA22AC963AE001CDF46 /* NetflixSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6CEA12AC963AE001CDF46 /* NetflixSwiftUIApp.swift */; };
 		38C6CEA42AC963AE001CDF46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6CEA32AC963AE001CDF46 /* ContentView.swift */; };
 		38C6CEA62AC963AF001CDF46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C6CEA52AC963AF001CDF46 /* Assets.xcassets */; };
@@ -52,7 +51,6 @@
 
 /* Begin PBXFileReference section */
 		3835DAE12AC9C55F00E86D0B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		3836C1842ACABE9F0084DAF3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		38C6CE9E2AC963AE001CDF46 /* NetflixSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C6CEA12AC963AE001CDF46 /* NetflixSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixSwiftUIApp.swift; sourceTree = "<group>"; };
 		38C6CEA32AC963AE001CDF46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -154,7 +152,6 @@
 				38C6CECF2AC96732001CDF46 /* Ressources */,
 				38C6CEA32AC963AE001CDF46 /* ContentView.swift */,
 				38C6CEAA2AC963AF001CDF46 /* NetflixSwiftUI.entitlements */,
-				3836C1842ACABE9F0084DAF3 /* GoogleService-Info.plist */,
 				38C6CEA72AC963AF001CDF46 /* Preview Content */,
 			);
 			path = NetflixSwiftUI;
@@ -403,7 +400,6 @@
 			files = (
 				38C6CEA92AC963AF001CDF46 /* Preview Assets.xcassets in Resources */,
 				38C6CEA62AC963AF001CDF46 /* Assets.xcassets in Resources */,
-				3836C1852ACABE9F0084DAF3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
